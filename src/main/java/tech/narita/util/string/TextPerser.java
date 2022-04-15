@@ -138,7 +138,6 @@ public abstract class TextPerser{
      */
     protected final void endToLast(){
         end = text.length() - 1;
-        finish = true;
     }
     /**
      * 検索対象文字列からn文字目の文字を返します。
